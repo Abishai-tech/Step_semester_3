@@ -1,4 +1,0 @@
-public class LibraryMembershipCard {
- static class MembershipCard{static String libraryName,validUntil;String studentName;static{libraryName="SRM Central Library";validUntil="May 2027";System.out.println("Library info loaded");}MembershipCard(String n){studentName=n;}}
- public static void main(String[] args){String[] n={"Ananya","Rohan","Priya","Arjun","Sneha"};for(String x:n){new MembershipCard(x);System.out.println("Membership card issued: "+x);}}
-}
