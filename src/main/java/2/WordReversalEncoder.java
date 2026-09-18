@@ -1,1 +1,0 @@
-import java.util.*; public class WordReversalEncoder{static String reverseEachWord(String s){StringBuilder r=new StringBuilder();for(String w:s.split(" "))r.append(new StringBuilder(w).reverse()).append(" ");return r.toString().trim();}public static void main(String[] z){System.out.println(reverseEachWord(new Scanner(System.in).nextLine()));}}
