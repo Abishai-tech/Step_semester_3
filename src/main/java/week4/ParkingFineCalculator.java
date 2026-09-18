@@ -1,4 +1,0 @@
-public class ParkingFineCalculator {
- static class ParkingTicket{String vehicleNo;double ratePerMinute;ParkingTicket(String v,double r){vehicleNo=v;ratePerMinute=r;}final double calculateFine(int m){return m*ratePerMinute;}final void printReceipt(int m){System.out.println(vehicleNo+" - Fine: Rs "+calculateFine(m));}}
- public static void main(String[] args){String[] v={"TN09AB1234","TN22CD5678","TN09EF9012","TN10GH3456"};double[] r={2,2,3,2};int[] m={15,0,-5,8};for(int i=0;i<v.length;i++){ParkingTicket p=new ParkingTicket(v[i],r[i]);if(m[i]>0)p.printReceipt(m[i]);else System.out.println(v[i]+" - No fine, within allotted time");}}
-}
