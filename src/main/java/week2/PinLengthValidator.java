@@ -1,0 +1,5 @@
+import java.util.*;
+public class PinLengthValidator {
+ static void checkPinLength(String p){System.out.println(p.length()==4?"PIN length OK.":"Invalid PIN — must be exactly 4 digits.");}
+ public static void main(String[] args){checkPinLength(new Scanner(System.in).nextLine());}
+}
