@@ -1,0 +1,1 @@
+public class PremiumLoyaltyLedger{static class GymMember{private int[] h=new int[10];private int n;protected void chargeLateFee(int a){h[n++]=a;}int[] getLateFeeHistory(){return h.clone();}int getTotalLateFees(){int s=0;for(int i=0;i<n;i++)s+=h[i];return s;}}static class PremiumMember extends GymMember{@Override protected void chargeLateFee(int a){super.chargeLateFee(a/2);}}}
