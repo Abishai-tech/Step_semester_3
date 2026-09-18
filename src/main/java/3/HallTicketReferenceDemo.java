@@ -1,1 +1,0 @@
-public class HallTicketReferenceDemo{static class HallTicket{String studentName;int seatNumber;HallTicket(String n,int s){studentName=n;seatNumber=s;}}public static void main(String[] z){HallTicket p=new HallTicket("Priya",0),c=p,s=new HallTicket("Priya",45);c.seatNumber=45;System.out.println(p.seatNumber);System.out.println(c==p);System.out.println(s==p);}}
